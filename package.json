@@ -1,5 +1,5 @@
 {
-  "name": "@rooster212/event-driven-dynamodb-rules-engine",
+  "name": "@clearcycle-uk/event-driven-dynamodb-rules-engine",
   "version": "1.5.0",
   "description": "Events and rules engine for use with DynamoDB.",
   "main": "index.js",
@@ -20,10 +20,10 @@
   "types": "index.d.ts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rooster212/event-driven-dynamodb-rules-engine.git"
+    "url": "git+https://github.com/ClearCycle-UK/event-driven-dynamodb-rules-engine.git"
   },
   "publishConfig": {
-    "@rooster212:registry": "https://npm.pkg.github.com"
+    "@clearcycle-uk:registry": "https://npm.pkg.github.com"
   },
   "dependencies": {
     "@aws-sdk/client-dynamodb": "3.577.0",
