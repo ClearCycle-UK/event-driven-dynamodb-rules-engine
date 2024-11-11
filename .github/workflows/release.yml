@@ -17,7 +17,7 @@ jobs:
         with:
           node-version: 20
           registry-url: "https://npm.pkg.github.com"
-          scope: "@${{ github.repository_owner }}"
+          scope: "@clearcycle-uk"
       - name: Install packages
         run: npm ci
       - name: Publish package
